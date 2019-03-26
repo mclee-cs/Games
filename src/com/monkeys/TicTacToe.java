@@ -31,6 +31,7 @@ public class TicTacToe {
     }
 
 
+    // where the game starts
     public void play() {
         while (continueToNextTurn()) {
             int playerMove = getNextInput();
